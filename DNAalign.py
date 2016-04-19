@@ -48,12 +48,12 @@
 #   
 #    We define a incompatible character mismatch as belonging to the set:
 #        A - G
-#	  A - C
+#        A - C
 #        T - G
 #        T - C
 #        G - A
-#	  G - T
-#	  C - A
+#        G - T
+#        C - A
 #        C - T
 
 import os
