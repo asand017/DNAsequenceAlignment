@@ -486,6 +486,6 @@ if __name__ == '__main__':
     DNASeq2 = readFile(args.DNASeq2FilePath)
     outputPath = args.OutputFilePath
     removeFile(outputPath)
-    writeToFile(outputPath,studentInfo())
+    # writeToFile(outputPath,studentInfo()) #
     DNASeqAlignment(DNASeq1,DNASeq2,outputPath)
 
