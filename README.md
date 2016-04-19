@@ -16,3 +16,5 @@ Similarity score: 6.85
 Sequence alignment1: -G-TG-A-ACG-C-TGGCGG-CGTG-CTAAAA
 Sequence alignment2: AGCT-AATACCCCAT-----ACGT-TC-----
 ```
+
+Run on `Python version 2.7.9`
