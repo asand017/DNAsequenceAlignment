@@ -1,4 +1,5 @@
 #DNA Sequence Alignment
+##### For CS141 - Intermediate Data Structures and Algorithms
 
 `DNAalign.py` takes 2 DNA sequences, in the form of text files, and calculates a similarity score that measures how similar the 2 DNA sequences are and an alignment of the same 2 DNA sequences.
 
