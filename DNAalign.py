@@ -1,27 +1,27 @@
-﻿#-------------------------------------------------------------------------------
+# DNAalign.py was an assignment for CS141 - Intermediate Data Structures and Algorithms during FALL 2015.
+#
+#-------------------------------------------------------------------------------
 # Author:      aaron sanders
 # Created:     10/25/2015
 #
 # Instructions:
 #
-# 1) Make sure to rename the file (studentNetId.py) to your netId. (Do not include your first name, last name ... or any extra character)
-# 2) To run the program type the following statement in the command line:  
-#       -) python studentNetId.py DNASeq1FilePath DNASeq2FilePath OutputFilePath                                                                   
+# 1) To run the program type the following statement in the command line:  
+#       -) python DNAalign.py DNASeq1FilePath DNASeq2FilePath OutputFilePath                                                                   
 #    where  DNASeq1FilePath is the path to the file that contains First DNA sequence (e.g. DNASeq1.txt)
 #           DNASeq2FilePath is the path to the file that contains Second DNA sequence (e.g. DNASeq2.txt)
 #           OutputFilePath is the path that the output is goint to be saved (e.g. out.txt)
-# 3) Make sure to replace FirstName, LastName, SectionNumber, NetId in studentInfo with your information
-# 4) You may add as many functions as you want to this program
-# 5) The core function in your program is DNASeqAlignment function, where it takes three arguments (DNASeq1,DNASeq2,outputPath) and 
+# 2) You may add as many functions as you want to this program
+# 3) The core function in your program is DNASeqAlignment function, where it takes three arguments (DNASeq1,DNASeq2,outputPath) and 
 #    computes the similarityScore, sequenceAlignment1 and sequenceAlignment2. At the end, the function writes the result to the output file (Do not make any changes to the output section).
-# 6) sequenceAlignment1 and sequenceAlignment2 are strings and they are composed of following characters: 'A', 'T', 'G', 'C' and '-', Do not include extra space or any other character in the strings.
-# 7) Make sure your program works with at least one of the following python versions: (2.7.9, 2.7.8, 2.6.6)
-# 8) Once you have tested your program with one of the versions listed above, assign that version number to pythonVersion in studentInfo function
-# 9) Make sure to write enough comments in order to make your code easy to understand. 
-# 10) Describe your algorithm in ALGORITHM section below (you may add as many lines as you want).
-# 11) To understand the flow of the program consider the following example:
+# 4) sequenceAlignment1 and sequenceAlignment2 are strings and they are composed of following characters: 'A', 'T', 'G', 'C' and '-', Do not include extra space or any other character in the strings.
+# 5) Make sure your program works with at least one of the following python versions: (2.7.9, 2.7.8, 2.6.6)
+# 6) Once you have tested your program with one of the versions listed above, assign that version number to pythonVersion in studentInfo function
+# 7) Make sure to write enough comments in order to make your code easy to understand. 
+# 8) Describe your algorithm in ALGORITHM section below (you may add as many lines as you want).
+# 9) To understand the flow of the program consider the following example:
 #      0) Let say we have DNASeq1.txt file which contains AACCTGACATCTT and DNASeq2.txt file contains CCAGCGTCAACTT
-#      1) If we execute the following command in the command line: -) python studentNetId.py DNASeq1.txt DNASeq2.txt out.txt
+#      1) If we execute the following command in the command line: -) python DNAalign.py DNASeq1.txt DNASeq2.txt out.txt
 #      2) input arguments are parsed       
 #      3) studentInfo() function will be executed and the output will be saved in out.txt file
 #      4) DNASeqAlignment() function will be called
@@ -34,8 +34,6 @@
 #      8) In the output section the result is going to be saved in out.txt file
 #-------------------------------------------------------------------------------
 
-# ALGORITHM: 
-# 
 #    We define a character match as belonging to the set:
 #		 A - A
 #        T - T
